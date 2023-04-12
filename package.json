@@ -1,0 +1,24 @@
+{
+  "name": "dynamic_website",
+  "version": "1.0.0",
+  "description": "learning project on nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "Shravan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^6.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
